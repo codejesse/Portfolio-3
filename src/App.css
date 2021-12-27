@@ -1,0 +1,193 @@
+.menu {
+  margin: 10px;
+}
+
+.center {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.container {
+  margin-left: 210px;
+  margin-top: -180px;
+}
+
+.container h2 {
+  display: block;
+  margin-left: 320px;
+  margin-top: -390px;
+  font-size: 70px;
+  font-family: Segoe UI Black;
+}
+
+.link {
+  text-decoration: none;
+  overflow: hidden;
+  background: linear-gradient(to right, midnightblue 50%, royalblue 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+}
+
+.container a:hover,
+.container a:focus,
+.container a:active {
+  background-position: 0 100%;
+}
+
+.container p {
+  margin-left: 320px;
+  margin-top: -45px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.container button {
+  margin-left: 520px;
+  background-color: rgb(29, 27, 27);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 18px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.container button:hover {
+  background-color: rgb(53, 49, 49);
+  box-shadow: 0 8px 32px 0 rgba(32, 38, 138, 1.37);
+  margin-top: -10px;
+  transition: 1s all;
+}
+
+
+.about-page {
+  margin: 100px;
+}
+
+.about-page h1 {
+  font-size: 65px;
+  font-family: Segoe UI Black;
+  font-weight: bold;
+}
+
+.about-page p {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+}
+
+.p-link {
+  display: flex;
+  margin-top: -25px;
+  margin-left: -32px;
+}
+
+.p-link a {
+  color: black;
+  margin: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+.nav-btn {
+  margin-left: 437px;
+  margin-top: 30px;
+  background-color: rgb(29, 27, 27);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 18px 69px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  background-color: rgb(53, 49, 49);
+  box-shadow: 0 8px 32px 0 rgba(32, 38, 138, 1.37);
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    margin-top: 590px;
+    margin-left: -312px;
+    margin-bottom: 0;
+  }
+  
+  .menu {
+    margin: 4px;
+  }
+
+  .container h2 {
+    font-size: 38px;
+  }
+
+  .container p {
+    margin-top: -16px;
+    font-size: 20px;
+  }
+
+  .container button {
+    padding: 15px 20px;
+    font-size: 15px;
+  }
+
+  .container img {
+    margin-top: -820px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-page {
+    margin: 15px;
+  }
+
+  .about-page h1 {
+    font-size: 45px;
+  }
+
+  .nav-btn {
+    margin-left: 57px;
+    padding: 12px 49px;
+  }
+
+  .about-page p {
+    font-size: 20px;
+  }
+
+  .p-link {
+    margin-top: -10px;
+    margin-left: -40px;
+  }
+}
+
+.works {
+  margin-left: 350px;
+  margin-top: 134px;
+}
+
+.works h1{
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+.fnt{
+  font-family: sans-serif;
+}
+
+
+@media screen and (max-width: 600px) {
+  .works {
+    margin: 10px;
+  }
+}
