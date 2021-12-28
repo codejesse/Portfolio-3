@@ -77,7 +77,7 @@ export default function works() {
               className="btn"
               target="_blank"
               href="https://github.com/codejesse/"
-              icon
+              icon  
             >
               Github for more
             </Link>

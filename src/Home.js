@@ -9,7 +9,7 @@ function Home() {
       <h2 className="animate__animated animate__fadeInUp">
       Hi i'm <Link className="link" to="/about">Jesse Beke</Link>
       </h2>
-      <p className="animate__animated animate__fadeInUp">a frontend developer</p>
+      <p className="animate__animated animate__fadeInUp">Frontend developer extraordinaire</p>
       <Link to="about"><button className="animate__animated animate__fadeInUp">EXPLORE</button></Link>
     </div>
   );
