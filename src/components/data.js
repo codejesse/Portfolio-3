@@ -1,4 +1,4 @@
-export default [
+const data = [
   {
     id: 1,
     img: "screentime.png",
@@ -56,3 +56,5 @@ export default [
   //   github: "https://github.com/codejesse/takenote"
   // },
 ];
+
+export default data;
