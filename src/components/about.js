@@ -7,7 +7,7 @@ function about() {
 	<div className="about-page">
 		<h1 className="animate__animated animate__fadeInUp">Jesse Beke</h1>
         <p className="animate__animated animate__fadeInUp">/'jes:e/ ['be:kE]</p>
-		<p className="animate__animated animate__fadeInUp">Hi 👋🏿 i'm Jesse a Front-End developer passionate about the web and building web applications; my stack revolves around HTML, CSS , javaScript(ES6), TypeScript, Reactjs, Nextjs & Firebase.</p>
+		<p className="animate__animated animate__fadeInUp">Hi 👋🏿 i'm Jesse a Front-End developer passionate about the web and building web applications that scale; my stack revolves around HTML, CSS , javaScript(ES6), TypeScript, Reactjs, Nextjs & Firebase.</p>
 	 <div className="p-link">
 		<p><a title="Twitter" href="https://twitter.com/jessebeke">TW</a></p>
 		<p><a title="Mail" href="mailto:jessebeke10@gmail.com">MAIL</a></p>

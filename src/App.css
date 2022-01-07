@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 .menu {
   margin: 10px;
 }
@@ -9,7 +11,12 @@
 
 .container {
   margin-left: 210px;
-  margin-top: -180px;
+  margin-top: -190px;
+}
+
+.container img {
+  width: 800px;
+  height: 800px;
 }
 
 .container h2 {
@@ -67,7 +74,6 @@
   transition: 1s all;
 }
 
-
 .about-page {
   margin: 100px;
 }
@@ -123,7 +129,7 @@
     margin-left: -312px;
     margin-bottom: 0;
   }
-  
+
   .menu {
     margin: 4px;
   }
@@ -171,23 +177,113 @@
   }
 }
 
-.works {
-  margin-left: 350px;
-  margin-top: 134px;
+img {
+  width: 100%;
+  border-radius: 12px;
+  height: 214px;
+  object-fit: cover;
 }
 
-.works h1{
-  font-size: 40px;
+
+#container {
+  width: 63%;
+  height: auto;
+  margin-left: 250px;
+  text-align: left;
+  padding: 2px;
+  column-count: 2;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card {
+  overflow: hidden;
+  height: auto;
+  position: relative;
+  padding: 10px;
+  margin-top: 55px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+.wrk-btn {
+  margin-top: 80px;
+  margin-left: -120px;
+  background-color: rgb(29, 27, 27);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 18px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
   font-family: sans-serif;
+  cursor: pointer;
 }
 
-.fnt{
-  font-family: sans-serif;
+.tag {
+  padding: 4px 8px;
+  border: 1px solid #e5eaed;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #788697;
 }
 
+.name {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #7f8c9b;
+  line-height: 150%;
+}
+
+button {
+  display: inline-block;
+  border: none;
+  margin-top: 20px;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  background-color: #4b4b4b;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.card__details {
+  /* Add space around the details */
+  padding: 16px 8px 8px 8px;
+}
+
+button:focus,
+button:hover {
+  background-color: black;
+  box-shadow: 0 8px 32px 0 rgba(32, 38, 138, 1.37);
+  color: #e0efff;
+}
 
 @media screen and (max-width: 600px) {
   .works {
-    margin: 10px;
+    margin: 0;
+  }
+
+  #container {
+    margin: 20px;
+    display: block;
+    column-count: 1;
+    width: 80%;
+  }
+
+  .wrk-btn {
+    margin: 30px;
   }
 }
