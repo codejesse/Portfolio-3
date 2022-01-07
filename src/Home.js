@@ -5,6 +5,7 @@ import "animate.css";
 function Home() {
   return (
     <div className="container">
+      <p className="text-vertix">Jesse</p>
       <img className="animate__animated animate__fadeInUp" src="Avatar.png" alt="Jesse" />
       <h2 className="animate__animated animate__fadeInUp">
       Hi i'm <Link className="link" to="/about">Jesse Beke</Link>

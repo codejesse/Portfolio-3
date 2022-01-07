@@ -195,6 +195,15 @@ img {
   font-family: 'Poppins', sans-serif;
 }
 
+.text-vertix {
+  position: fixed;
+  writing-mode: vertical-rl;
+  margin-left: -14px;
+  margin-top: 55px;
+  font-size: 155px;
+  color: #707070;
+}
+
 .card {
   overflow: hidden;
   height: auto;
@@ -285,5 +294,9 @@ button:hover {
 
   .wrk-btn {
     margin: 30px;
+  }
+
+  .text-vertix {
+    display: none;
   }
 }
