@@ -30,7 +30,7 @@ export default function Menu() {
         <Modal.Body className="animate__animated animate__fadeInUp">
           <Grid>
             <Text className="center" id="modal-title" size={35}>
-              <Link href="/">Home</Link>
+              <Link color="success" href="/">Home</Link>
             </Text>
             <Spacer y={1} />
             <Text className="center" id="modal-title" size={35}>
