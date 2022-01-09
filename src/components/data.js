@@ -10,7 +10,7 @@ const data = [
   {
     id: 2,
     img: "newsit.png",
-    title: "Newsit",
+    title: "Newsify",
     desc: "newsite make with Reactjs and a news API",
     site: "https://newsit.vercel.app/",
     github: "https://github.com/codejesse/NewsifyV2"

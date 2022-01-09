@@ -4,19 +4,20 @@
   margin: 10px;
 }
 
+
 .center {
   text-align: center;
   font-family: "Poppins",sans-serif;
 }
 
 .container {
-  margin-left: 210px;
+  margin-left: 270px;
   margin-top: -100px;
 }
 
 .container img {
   width: 800px;
-  height: 100vh;
+  height: 104vh;
 }
 
 .container h2 {
@@ -103,7 +104,7 @@
 }
 
 .nav-btn {
-  margin-left: 437px;
+  margin-left: 477px;
   margin-top: 30px;
   background-color: rgb(29, 27, 27);
   border: none;
@@ -125,7 +126,7 @@
 
 @media screen and (max-width: 600px) {
   .container {
-    margin-top: 590px;
+    margin-top: -90px;
     margin-left: -312px;
     margin-bottom: 0;
   }
@@ -135,36 +136,36 @@
   }
 
   .container h2 {
-    font-size: 38px;
+    font-size: 40px;
   }
 
   .container p {
-    margin-top: -16px;
-    font-size: 20px;
+    margin-top: -25px;
+    font-size: 18px;
   }
 
   .container button {
-    padding: 15px 20px;
+    padding: 19px 25px;
     font-size: 15px;
   }
 
   .container img {
-    margin-top: -820px;
+    margin-top: -990;
     width: 100%;
-    height: 100%;
+    height: 104vh;
   }
 
   .about-page {
-    margin: 15px;
+    margin: 10px;
   }
 
   .about-page h1 {
-    font-size: 45px;
+    font-size: 47px;
   }
 
   .nav-btn {
     margin-left: 57px;
-    padding: 12px 49px;
+    padding: 18px 50px;
   }
 
   .about-page p {
@@ -188,7 +189,7 @@ img {
 #container {
   width: 63%;
   height: auto;
-  margin-left: 250px;
+  margin-left: 280px;
   text-align: left;
   padding: 2px;
   column-count: 2;
@@ -199,9 +200,10 @@ img {
   position: fixed;
   writing-mode: vertical-rl;
   margin-left: -14px;
-  margin-top: 55px;
+  margin-top: 75px;
   font-size: 155px;
   color: #707070;
+  letter-spacing: 5px;
 }
 
 .card {
@@ -286,7 +288,7 @@ button:hover {
   }
 
   #container {
-    margin: 20px;
+    margin: 30px;
     display: block;
     column-count: 1;
     width: 80%;
