@@ -28,8 +28,8 @@ const data = [
     img: "randm.png",
     title: "RandomPix",
     desc: "Unsplash like clone with a cool modal made with Reactjs and framer",
-    site: "https://takenote-liart.vercel.app/",
-    github: "https://github.com/codejesse/takenote"
+    site: "https://randompix.vercel.app/",
+    github: "https://github.com/codejesse/RandomPics"
   },
   // {
   //   id: 5,
