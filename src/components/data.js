@@ -5,7 +5,7 @@ const data = [
     title: "ScreenTime",
     desc: "Movie aggregator site made with Reactjs and themoviedb API",
     site: "https://screentime.vercel.app",
-    github:""
+    github:"https://github.com/codejesse/ScreenTime-movie-app/"
   },
   {
     id: 2,
