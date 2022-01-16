@@ -22,6 +22,7 @@
 
 .container img {
   width: 800px;
+  margin-left: -200px;
   height: 104vh;
 }
 
@@ -156,6 +157,7 @@
 
   .container img {
     margin-top: -990;
+    margin-left: 160px;
     width: 100%;
     height: 104vh;
   }
