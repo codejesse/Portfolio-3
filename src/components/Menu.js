@@ -2,7 +2,7 @@ import "../App.css";
 import { useState } from "react";
 import { Button, Text, Modal, Grid, Spacer, Link } from "@nextui-org/react";
 
-export default function Menu() {
+function Menu() {
   const [visible, setVisible] = useState(false);
   const handler = () => setVisible(true);
   const closeHandler = () => {
@@ -51,3 +51,4 @@ export default function Menu() {
     </div>
   );
 }
+export default Menu;

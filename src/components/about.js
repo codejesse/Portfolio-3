@@ -10,7 +10,7 @@ function about() {
       <p className="animate__animated animate__fadeInUp">
         Hi 👋🏿 i'm Jesse a Front-End developer passionate about the web and
         building web applications that scale; my stack revolves around HTML,
-        CSS, javaScript(ES6), TypeScript, Reactjs, Nextjs & Firebase.
+        CSS, javaScript(ES6), TypeScript, Reactjs, Nextjs, Vuejs & Firebase.
       </p>
       <div className="p-link">
         <p>
